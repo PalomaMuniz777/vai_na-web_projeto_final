@@ -67,6 +67,8 @@
 from flask import Flask, request, jsonify
 import sqlite3
 from flask_cors import CORS
+import logging
+
 
 # Configura o logging para exibir mensagens no console
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
